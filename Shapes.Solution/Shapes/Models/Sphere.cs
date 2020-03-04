@@ -11,6 +11,11 @@ namespace Shapes.Models
       return Math.Round((4 * Circle.Pi * Math.Pow(Face.Radius, 3) /3), 1);
       // MathRound(value, decimalPoints)
     }
+
+    public double GetSurfaceArea()
+    {
+      return Math.Round((4 * Circle.Pi * Math.Pow(Face.Radius, 2)), 2); 
+    }
     
   }
 }

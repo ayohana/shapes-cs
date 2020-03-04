@@ -19,6 +19,15 @@ namespace Shapes.Tests
       // Assert
       Assert.AreEqual(result, 33.5);
     }
+
+    [TestMethod]
+    public void Sphere_GetSurfaceArea_SurfaceAreaOfSphere()
+    {
+      Sphere newSphere = new Sphere();
+      newSphere.Face = new Circle(2);
+      double result = newSphere.GetSurfaceArea();
+      Assert.AreEqual(result, 50.24);
+    }
   }
   
 }
