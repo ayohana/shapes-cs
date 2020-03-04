@@ -25,7 +25,7 @@ namespace Shapes.Tests
       double result = newCircle.GetDiameter();
       Assert.AreEqual(result, 8);
     }
-    
+
   }
   
 }
