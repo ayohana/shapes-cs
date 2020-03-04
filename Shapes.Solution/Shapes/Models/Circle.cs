@@ -11,6 +11,16 @@ namespace Shapes.Models
       Radius = radius; 
     }
 
+    public double GetCircumference() 
+    {
+      return Two * Pi * Radius; 
+    }
+
+    public double GetDiameter()
+    {
+        return Two * Radius;
+    }
+
     
   }
 }
